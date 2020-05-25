@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "059c03bdb11a902fa8072935dfaeb66d",
+    "revision": "56cb0d059024e43fb638b11b71b1c2f0",
     "url": "/monthly-planner/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/monthly-planner/static/css/2.2e898540.chunk.css"
   },
   {
-    "revision": "bad76e40caa5ab2c38ab",
+    "revision": "79e0b8697da324171a41",
     "url": "/monthly-planner/static/css/main.d99bc1a8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/monthly-planner/static/js/2.c05c67e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bad76e40caa5ab2c38ab",
-    "url": "/monthly-planner/static/js/main.8f30216f.chunk.js"
+    "revision": "79e0b8697da324171a41",
+    "url": "/monthly-planner/static/js/main.1a8c0ece.chunk.js"
   },
   {
     "revision": "3e6b268013ee74389a0e",
