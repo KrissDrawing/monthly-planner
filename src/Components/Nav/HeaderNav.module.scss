@@ -1,0 +1,46 @@
+@import '../../globalVariables.scss';
+
+.wrapper {
+  display: flex;
+  background-color: $primaryColor;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+}
+
+.totalWrapper {
+  color: $fontColor;
+  border: 2px solid $outline;
+  padding: 3px 10px;
+  border-radius: 10px;
+  cursor: default;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.disappear {
+  opacity: 0;
+}
+
+.positiveLimit {
+  color: green;
+}
+
+.negativeLimit {
+  color: red;
+}
+
+.navItem {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid $outline;
+  border-radius: 10px;
+  color: $fontColor;
+
+  &Active {
+    background-color: $accentColor;
+  }
+
+  &:hover {
+    color: #fff;
+  }
+}

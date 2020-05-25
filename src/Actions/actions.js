@@ -1,0 +1,9 @@
+export const ADD_PAYMENT = 'ADD_PAYMENT';
+export const DELETE_PAYMENT = 'DELETE_PAYMENT';
+export const EDIT_PAYMENT = 'EDIT_PAYMENT';
+export const UPDATE_TOTAL = 'UPDATE_TOTAL';
+export const MARK_AS_PAID = 'MARK_AS_PAID';
+export const AUTO_PAY = 'AUTO_PAY';
+export const SET_LIMIT = 'SET_LIMIT';
+export const SET_CURRENT_DATE = 'SET_CURRENT_DATE';
+export const SET_STATE = 'SET_STATE';

@@ -1,0 +1,11 @@
+@import '../../globalVariables.scss';
+
+.wrapper {
+  display: flex;
+  width: 300px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 10px;
+  border: 2px solid $outline;
+  background-color: $secondaryColor;
+}

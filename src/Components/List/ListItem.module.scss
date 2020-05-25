@@ -1,0 +1,39 @@
+.bodyWrapper {
+  width: 90vw;
+  // margin: 10px;
+  height: 100%;
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dropdownWrapper {
+  width: max-content;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.nameRegular {
+  font-size: 16px;
+}
+.nameSmall {
+  font-size: 12px;
+}
+
+.paymentOverdue {
+  border-bottom: 20px solid red;
+}
+
+@media (min-width: 768px) {
+  .bodyWrapper {
+    width: 200px;
+    // margin: 10px;
+    height: 100%;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.1);
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../globalVariables.scss';
+
+.wrapper {
+  width: 100%;
+}
+
+.heading {
+  color: $fontColor;
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 50%;
+  }
+}

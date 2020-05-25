@@ -1,0 +1,25 @@
+@import '../../globalVariables.scss';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.controlWrapper {
+  //   width: 100%;
+  margin: 15px auto;
+}
+
+.heading {
+  color: $fontColor;
+  font-size: 36px;
+  margin: 10px;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 50%;
+  }
+}

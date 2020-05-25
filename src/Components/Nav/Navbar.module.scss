@@ -1,0 +1,17 @@
+@import '../../globalVariables.scss';
+
+.navItem {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid $outline;
+  border-radius: 10px;
+  color: $fontColor;
+
+  &Active {
+    background-color: $accentColor;
+  }
+
+  &:hover {
+    color: #fff;
+  }
+}

@@ -1,0 +1,6 @@
+@import '../globalVariables.scss';
+.wrapper {
+  background-color: $backgroundColor;
+  min-height: 100vh;
+  height: fit-content;
+}

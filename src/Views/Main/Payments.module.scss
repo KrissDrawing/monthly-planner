@@ -1,0 +1,68 @@
+@import '../../globalVariables.scss';
+
+.wrapper {
+  position: relative;
+}
+
+.dateWrapper {
+  position: relative;
+  background-color: $accentColor;
+  margin: auto;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid $outline;
+  border-top: none;
+  border-radius: 0 0 50px 50px;
+  color: $fontColor;
+}
+
+.buttonAdd {
+  color: $accentColor;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  width: 75px;
+  height: 75px;
+  border: 2px solid $outline;
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  z-index: 10;
+  cursor: pointer;
+}
+.paymentWrapper {
+  margin: 0;
+  width: 350px;
+  margin: auto;
+}
+.arrowButton {
+  position: absolute;
+  color: $accentColor;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $fontColor;
+  border-radius: 50%;
+  font-size: 50px;
+  bottom: -25px;
+
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.arrowAnimation {
+  transform: rotateZ(180deg);
+}
+
+.dateHeading {
+  font-size: 48px;
+}
+
+@media (min-width: 768px) {
+  .arrowButton {
+    right: -40px;
+    bottom: 25%;
+  }
+}

@@ -1,0 +1,15 @@
+.wrapper {
+  margin-top: 0px;
+  display: grid;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    display: flex;
+    margin-top: 50px;
+  }
+}
+
+//   @media (min-width: 1024px) {
+
+//   }
